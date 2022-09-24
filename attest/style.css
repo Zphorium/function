@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+#container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#all i{
+    font-size: 30px;
+}
+#x{
+    margin-top: 1rem;
+    text-align: center;
+}
+#btn{
+    padding: 7px 2rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: #fff;
+}
+#second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+#second p{
+    font-size: 20px;
+    width: 30%;
+    background-color: antiquewhite;
+}

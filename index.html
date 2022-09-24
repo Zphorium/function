@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/attest/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container">
+           
+           <div ">
+       
+               <i class="fa-solid fa-sack-dollar"></i>
+               <p>Loan Amount</p>
+               <input id="loan" type="number">
+           </div>
+           <div >
+       
+               <i class="fa-solid fa-percent"></i>
+               <p>Interest Rate</p>
+               <input id="rate" type="number">
+           </div>
+           <div>
+       
+               <i class="fa-solid fa-calendar-days"></i>
+               <p>Number of Years</p>
+               <input id="years" type="number">
+           </div>
+       </div>
+        <div id="x">
+            <button id="btn">Calculate</button>
+        </div>
+         <div id="second">
+            <p id="monthlyPayment" class="title is-1">MonthlyPayment: $ </p>
+            <p id="totalInterest" class="title is-1">TotalInteres: % </p>
+            <p id="totalPayment" class="title is-1">TotalPayment: $ </p>
+         </div>
+
+    </div>
+
+    <script src="/attest/app.js"></script>
+</body>
+</html>
